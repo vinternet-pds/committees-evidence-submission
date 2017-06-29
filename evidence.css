@@ -85,6 +85,17 @@ main {
   border: solid 3px #CCCCCC;
 }
 
+.box-input > h3 {
+  padding-left: 10px;
+}
+
+.highlight {
+  background-color: #EFEFEF;
+  border-left: solid 10px #CCCCCC;
+  text-indent: 5px;
+  padding: 5px 0;
+}
+
 /* Tables */
 
 table {

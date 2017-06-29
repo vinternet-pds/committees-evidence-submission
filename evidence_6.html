@@ -20,13 +20,13 @@
     <p>&nbsp;&lt;&nbsp;<a href="evidence_5.html">back</a><p>
 
     <h2>Add evidence</h2>
-    <form method="post" action="evidence_7.html">
+    <form id="evidence_type">
       <fieldset>
         <legend>Add evidence</legend>
-        <input type="radio" name="add evidence" id="write" checked>
+        <input type="radio" name="add evidence" id="write" onclick="document.getElementById('evidence_type').action='evidence_9.html';">
         <label for="write">Write evidence</label>
         <br />
-        <input type="radio" name="add evidence" id="upload">
+        <input type="radio" name="add evidence" id="upload" onclick="document.getElementById('evidence_type').action='evidence_7.html';">
         <label for="upload">Upload a file</label>
       </fieldset>
       <br />
