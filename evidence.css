@@ -12,16 +12,25 @@ h2 {
   padding-top: 10px;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 /* Forms */
 
 form {
   padding-top: 10px;
 }
 
+.user-type {
+  margin-top: -20px;
+}
+
 input[type="text"] {
   display: block;
   width: 300px;
   padding: 10px;
+  font-size: 18px;
 }
 
 legend {
