@@ -1,0 +1,168 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Inquiry Aims - Terms of reference</title>
+<head>
+  <link rel="stylesheet" href="evidence.css">
+</head>
+<body id="top">
+  <header>
+    <img alt="UK Parliament" class="logo" src="https://s3-eu-west-1.amazonaws.com/web1live.pugin-website/1.4.6/images/uk_parliament_logo.png" srcset="https://s3-eu-west-1.amazonaws.com/web1live.pugin-website/1.4.6/images/uk_parliament_logo.svg">
+  </header>
+  <main>
+    <h1>Inquiry Title</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo. Curabitur nisl ligula, posuere sed dolor et, vestibulum lacinia eros. Nunc convallis ligula id dui vestibulum, et sagittis odio efficitur.</p>
+
+    <h2>Terms of reference</h2>
+
+    <div style="display:none;">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo.</p>
+      <p class="highlight">important notification text</p>
+      <div class="box-input">
+        <h3>Inquiry Aims</h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="slider-link">show more</p>
+
+
+    <form method="post" action="" id="user_type">
+
+      <h3>About you</h3>
+
+      <fieldset>
+        <legend>Who are you submitting evidence on behalf of</legend>
+        <input type="radio" name="who are you" id="individual" value="0" onclick="userContent(this);">
+        <label for="individual">Myself</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="who are you" id="organisation" value="1" onclick="userContent(this);">
+        <label for="organisation">An organisation I represent</label>
+      </fieldset>
+
+      <label for="inp_title">Title</label>
+      <input type="text" id="inp_title" />
+      <br />
+      <label for="inp_fname">First name</label>
+      <input type="text" id="inp_fname" />
+      <br />
+      <label for="inp_lname">Last name</label>
+      <input type="text" id="inp_lname" />
+      <br />
+
+      <label for="inp_name">Email</label>
+      <input type="text" id="inp_email" />
+      <br />
+      <label for="inp_name">Phone</label>
+      <input type="text" id="inp_phone" />
+      <br />
+
+      <label for="inp_pcode">Postcode</label>
+      <input type="text" id="inp_pcode" />
+      <br />
+
+      <div style="display:none;" id="org">
+
+        <h3>About the organisation you work for</h3>
+
+        <label for="inp_title">Organisation name</label>
+        <input type="text" id="inp_orgname" />
+        <br />
+        <label for="inp_fname">Your job title</label>
+        <input type="text" id="inp_jobtitle" />
+
+      </div>
+
+      <h2>Evidence submission guidelines</h2>
+
+      <div style="display:none;">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed facilisis, sem ac tempus ullamcorper, nisi mauris consequat nisl, sit amet vulputate libero quam ac justo.</p>
+
+      </div>
+
+      <p class="slider-link">show more</p>
+
+      <fieldset>
+        <legend>Add evidence</legend>
+        <input type="radio" name="add evidence" id="write" value="0" onclick="evidenceContent(this);">
+        <label for="write">Write evidence</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="add evidence" id="upload" value="1" onclick="evidenceContent(this);">
+        <label for="upload">Upload a file</label>
+      </fieldset>
+
+      <div style="display:none;" id="upd">
+        <h3>Upload a file</h3>
+        <div class="box">
+          <p class="title-link">browse your files</p>
+        </div>
+
+        <br />
+
+        <table>
+         <tr>
+           <th>Description</th>
+           <th>Date</th>
+           <th>Type</th>
+           <th>Delete Evidence</th>
+         </tr>
+         <tr>
+           <td>Document 1</td>
+           <td>01 Jul 2017</td>
+           <td>Word Document</td>
+           <td><a href="#">delete submission</a></td>
+         </tr>
+        </table>
+      </div>
+
+      <div style="display:none;" id="wtn">
+        <h3>Write your evidence</h3>
+        <div class="box-input">
+          <textarea></textarea>
+          <img src="img/wsiwig.png" width="100%" align="absbottom" />
+        </div>
+      </div>
+
+      <p>How would like this committee to consider your evidence?</p>
+
+      <fieldset>
+        <legend>Would you like the committee to consider</legend>
+        <div class="radio-holder extra"><input type="radio" name="evidence visibilty" id="public">
+        <label for="public">Making the submission and your name public</label></div>
+        <br />
+        <div class="radio-holder extra"><input type="radio" name="evidence visibilty" id="partial">
+        <label for="partial">Making the submission public but witholding your name</label></div>
+        <br />
+        <div class="radio-holder extra"><input type="radio" name="evidence visibilty" id="private">
+        <label for="private">Keeping the submission, or part of it, confidential</label></div>
+      </fieldset>
+
+      <br />
+      <div class="check-holder"><input type="checkbox" name="chk_aims" value="accept"> <span class="check-text">I have read and understand these aims</span></div>
+      <br />
+      <br />
+      <input type="submit" value="Submit my evidence" class="button"/>
+    </form>
+
+    <div class="divider-large"></div>
+
+  </main>
+
+  <script type="text/javascript" src="slider.js"></script>
+
+</body>
+</html>

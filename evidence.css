@@ -136,7 +136,7 @@ main {
   border: solid 3px #CCCCCC;
 }
 
-.box-input > h3 {
+.box-input > h2, .box-input > h3 {
   padding-left: 10px;
 }
 
@@ -197,6 +197,17 @@ td {
 }
 
 .title-link:hover {
+  text-decoration: none;
+}
+
+.slider-link {
+  margin-top: 5px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.slider-link:hover{
   text-decoration: none;
 }
 
