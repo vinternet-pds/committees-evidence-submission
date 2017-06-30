@@ -70,7 +70,7 @@ input[type="checkbox"] {
 }
 
 .check-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .radio-holder {
@@ -89,7 +89,7 @@ input[type="checkbox"] {
 }
 
 .radio-holder > label {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Header */
