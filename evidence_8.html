@@ -27,8 +27,25 @@
 
       <h3>Upload a file</h3>
       <div class="box">
-        <p class="title-link">browse your files</p>
+        <p class="title-link" onclick="showDocument();">browse your files</p>
       </div>
+
+      <br />
+
+      <table id="updoc" style="display:none;">
+       <tr>
+         <th>Description</th>
+         <th>Date</th>
+         <th>Type</th>
+         <th>Delete Evidence</th>
+       </tr>
+       <tr>
+         <td>Document 1</td>
+         <td>01 Jul 2017</td>
+         <td>Word Document</td>
+         <td><a href="#">delete submission</a></td>
+       </tr>
+      </table>
 
       <br />
       <input type="submit" value="continue" class="button"/>
@@ -37,5 +54,8 @@
     <div class="divider-large"></div>
 
   </main>
+
+  <script type="text/javascript" src="slider.js"></script>
+  
 </body>
 </html>

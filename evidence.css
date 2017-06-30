@@ -8,6 +8,10 @@ body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+h2 {
+  padding-top: 10px;
+}
+
 /* Forms */
 
 form {
@@ -31,7 +35,6 @@ fieldset {
   border: 0;
 }
 
-
 textarea {
   width: 99%;
   height: 200px;
@@ -50,7 +53,6 @@ input[type="checkbox"] {
   vertical-align: middle;
 }
 
-
 .check-holder {
   width: 450px;
   background-color: #EFEFEF;
@@ -63,7 +65,7 @@ input[type="checkbox"] {
 }
 
 .radio-holder {
-  width: 200px;
+  width: 600px;
   background-color: #EFEFEF;
   border-radius: 5px;
   padding: 0 0 8px 10px;
@@ -76,8 +78,6 @@ input[type="checkbox"] {
 .radio-holder > label {
   font-size: 20px;
 }
-
-
 
 /* Header */
 
@@ -121,7 +121,7 @@ main {
 }
 
 .box {
-  width: 100%;
+  width: 99.2%;
   border: dashed 3px #CCCCCC;
 }
 

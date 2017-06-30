@@ -14,6 +14,15 @@ function toggleContent(event) {
   }
 }
 
+function showDocument() {
+  var doc = document.getElementById('updoc');
+  if (doc.style.display === 'none') {
+    doc.style.display = 'table';
+  } else {
+    doc.style.display = 'none';
+  }
+}
+
 document.addEventListener('click', toggleContent, true);
 
 function userContent(rad) {
