@@ -38,3 +38,10 @@ function evidenceContent(rads) {
   document.getElementById('wtn').style.display = (erads[0].checked) ? 'block' : 'none';
   document.getElementById('upd').style.display = (erads[1].checked) ? 'block' : 'none';
 }
+
+function privacyContent(radz) {
+  var prads = document.getElementsByName(radz.name);
+
+  document.getElementById('prv').style.display = (prads[0].checked) ? 'none' : 'block';
+  document.getElementById('prv').style.display = (prads[1].checked) ? 'block' : 'none';
+}

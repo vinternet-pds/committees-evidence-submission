@@ -71,6 +71,14 @@ input[type="checkbox"] {
   padding: 0 0 8px 10px;
 }
 
+.small {
+  width: 200px;
+}
+
+.large {
+  width: 650px;
+}
+
 .radio-holder > label {
   font-size: 20px;
 }
@@ -97,6 +105,7 @@ main {
 }
 
 .status {
+  margin-top: 10px;
   background-color: #DEDEDE;
 }
 
@@ -139,7 +148,7 @@ main {
 .highlight {
   background-color: #EFEFEF;
   border-left: solid 10px #CCCCCC;
-  text-indent: 5px;
+  text-indent: 10px;
   padding: 5px 0;
 }
 
@@ -148,7 +157,7 @@ main {
 table {
   width: 100%;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 
 tr {
