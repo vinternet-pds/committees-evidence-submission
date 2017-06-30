@@ -71,10 +71,6 @@ input[type="checkbox"] {
   padding: 0 0 8px 10px;
 }
 
-.extra {
-  width: 600px;
-}
-
 .radio-holder > label {
   font-size: 20px;
 }
@@ -137,7 +133,7 @@ main {
 }
 
 .box-input > h2, .box-input > h3 {
-  padding-left: 10px;
+  padding: 0 0 0 10px;
 }
 
 .highlight {
