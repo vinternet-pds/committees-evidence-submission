@@ -19,17 +19,16 @@
 
     <p>&nbsp;&lt;&nbsp;<a href="evidence_6.html">back</a><p>
 
-    <h2>Upload your evidence</h2>
-    <form method="post" action="evidence_8.html">
-
-      <label for="inp_desc">Describe your evidence</label>
-      <input type="text" id="inp_desc" />
-
-      <h3>Upload a file</h3>
-      <div class="box">
-        <p class="title-link">browse your files</p>
-      </div>
-
+    <h2>Add evidence</h2>
+    <form id="evidence_type">
+      <fieldset>
+        <legend>Add evidence</legend>
+        <div class="radio-holder"><input type="radio" name="add evidence" id="write" onclick="document.getElementById('evidence_type').action='evidence_9.html';">
+        <label for="write">Write evidence</label></div>
+        <br />
+        <div class="radio-holder"><input type="radio" name="add evidence" id="upload" onclick="document.getElementById('evidence_type').action='evidence_8.html';">
+        <label for="upload">Upload a file</label></div>
+      </fieldset>
       <br />
       <input type="submit" value="continue" class="button"/>
     </form>

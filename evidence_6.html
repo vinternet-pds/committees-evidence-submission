@@ -13,22 +13,15 @@
     <h1>Inquiry Title</h1>
 
     <div class="status">
-      <div class="sec_title">Section: Your evidence</div>
-      <div class="sec_number">4 of 5</div>
+      <div class="sec_title">Section: Contact details</div>
+      <div class="sec_number">3 of 5</div>
     </div>
 
     <p>&nbsp;&lt;&nbsp;<a href="evidence_5.html">back</a><p>
 
-    <h2>Add evidence</h2>
-    <form id="evidence_type">
-      <fieldset>
-        <legend>Add evidence</legend>
-        <input type="radio" name="add evidence" id="write" onclick="document.getElementById('evidence_type').action='evidence_9.html';">
-        <label for="write">Write evidence</label>
-        <br />
-        <input type="radio" name="add evidence" id="upload" onclick="document.getElementById('evidence_type').action='evidence_7.html';">
-        <label for="upload">Upload a file</label>
-      </fieldset>
+    <form method="post" action="evidence_7.html">
+      <label for="inp_pcode">Postcode</label>
+      <input type="text" id="inp_pcode" />
       <br />
       <input type="submit" value="continue" class="button"/>
     </form>
