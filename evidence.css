@@ -33,6 +33,10 @@ input[type="text"] {
   font-size: 18px;
 }
 
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
 legend {
   font-size: 25px;
   padding: 10px 0 25px 0;
@@ -57,8 +61,8 @@ input[type="radio"] {
 }
 
 input[type="checkbox"] {
-  width: 40px;
-  height: 40px;
+  width: 30px !important;
+  height: 30px !important;
   vertical-align: middle;
 }
 
