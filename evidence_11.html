@@ -21,11 +21,11 @@
 
     <h3>About you</h3>
 
-    <p><span class="subtitle">Name:</span> <i>title / first name / last name</i></p>
-    <p><span class="subtitle">Submitting as:</span> <i>individual / part of an organisation</i></p>
-    <p><span class="subtitle">Email:</span> <i>email address</i></p>
-    <p><span class="subtitle">Phone:</span> <i>telphone number</i></p>
-    <p><span class="subtitle">Post Code:</span> <i>post code</i></p>
+    <p><span class="subtitle">Name:</span> Nick Day</p>
+    <p><span class="subtitle">Submitting as:</span> <span id="uType"></span></p>
+    <p><span class="subtitle">Email:</span> nick@test.com</p>
+    <p><span class="subtitle">Phone:</span> 01234 567890</p>
+    <p><span class="subtitle">Post Code:</span> ABC 123</p>
 
     <p class="edit-details"><a href="evidence_4.html">Edit</a></p>
 
@@ -40,7 +40,7 @@
      <tr>
        <td>Document 1</td>
        <td>04 Jul 2017</td>
-       <td>Word Document</td>
+       <td id="eType"></td>
      </tr>
     </table>
     <p class="edit-details"><a href="evidence_9.html">Edit</a></p>
@@ -82,6 +82,11 @@
   </main>
 
   <script type="text/javascript" src="slider.js"></script>
+
+  <script>
+    document.getElementById('uType').innerHTML = sessionStorage.getItem('user');
+    document.getElementById('eType').innerHTML = sessionStorage.getItem('evidence');
+  </script>
 
 </body>
 </html>

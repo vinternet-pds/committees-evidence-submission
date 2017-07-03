@@ -20,10 +20,10 @@
     <form id="user_type" class="user-type">
       <fieldset>
         <legend>You are submitting as:</legend>
-        <div class="radio-holder"><input type="radio" name="who are you" id="individual" onclick="document.getElementById('user_type').action='evidence_3.html';">
+        <div class="radio-holder"><input type="radio" name="who are you" id="individual" onclick="userTypeInd();">
         <label for="individual">an individual</label></div>
         <br />
-        <div class="radio-holder"><input type="radio" name="who are you" id="organisation" onclick="document.getElementById('user_type').action='evidence_4.html';">
+        <div class="radio-holder"><input type="radio" name="who are you" id="organisation" onclick="userTypeOrg();">
         <label for="organisation">part of an organisation</label></div>
       </fieldset>
       <input type="submit" value="Continue" class="button"/>
@@ -35,5 +35,17 @@
     <div class="divider-large"></div>
 
   </main>
+  <script>
+  function userTypeInd() {
+    var ind = 'an individual';
+    sessionStorage.setItem('user',ind);
+    document.getElementById('user_type').action='evidence_3.html';
+  }
+  function userTypeOrg() {
+    var org = 'part of an organisation';
+    sessionStorage.setItem('user',org);
+    document.getElementById('user_type').action='evidence_4.html';
+  }
+  </script>
 </body>
 </html>

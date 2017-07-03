@@ -27,9 +27,9 @@
        <th>Remove</th>
      </tr>
      <tr>
-       <td>Document 1</td>
+       <td>My evidence</td>
        <td>04 Jul 2017</td>
-       <td>Word Document</td>
+       <td id="eType"></td>
        <td><img src="img/remove.png" width="15px" style="vertical-align:middle;"/>&nbsp;<a href="#">remove submission</a></td>
      </tr>
      <tr>
@@ -45,5 +45,10 @@
    <div class="divider-large"></div>
 
   </main>
+
+  <script>
+    document.getElementById('eType').innerHTML = sessionStorage.getItem('evidence');
+  </script>
+
 </body>
 </html>

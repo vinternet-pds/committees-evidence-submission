@@ -36,10 +36,10 @@
     <form id="evidence_type">
       <fieldset>
         <legend>Your submission</legend>
-        <div class="radio-holder"><input type="radio" name="add evidence" id="write" onclick="document.getElementById('evidence_type').action='evidence_9.html';">
+        <div class="radio-holder"><input type="radio" name="add evidence" id="write" onclick="wrtEvdType();">
         <label for="write">Write your submission</label></div>
         <br />
-        <div class="radio-holder"><input type="radio" name="add evidence" id="upload" onclick="document.getElementById('evidence_type').action='evidence_8.html';">
+        <div class="radio-holder"><input type="radio" name="add evidence" id="upload" onclick="updEvdType();">
         <label for="upload">Upload your submission</label></div>
       </fieldset>
       <br />
@@ -52,5 +52,17 @@
     <div class="divider-large"></div>
 
   </main>
+  <script>
+  function wrtEvdType() {
+    var wrt = 'Written Evidence';
+    sessionStorage.setItem('evidence',wrt);
+    document.getElementById('evidence_type').action='evidence_9.html';
+  }
+  function updEvdType() {
+    var wrd = 'Word Document';
+    sessionStorage.setItem('evidence',wrd);
+    document.getElementById('evidence_type').action='evidence_8.html';
+  }
+  </script>
 </body>
 </html>
