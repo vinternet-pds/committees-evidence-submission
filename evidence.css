@@ -35,6 +35,8 @@ input[type="text"] {
 
 input[type="submit"] {
   -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
 }
 
 legend {
@@ -231,8 +233,8 @@ td {
 
 .button, .button > a {
   width: 250px;
-  margin: 10px 0 5px 0;
-  padding: 8px 0;
+  margin: 15px 0 5px 0;
+  padding: 15px 0;
   background-color: #CCCCCC;
   color: #222222;
   cursor: pointer;
